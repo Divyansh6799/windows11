@@ -1,0 +1,7 @@
+Typed Command:-
+1-  .\adb pair (your wireless debuging ip) 
+2-  .\adb connect (your wireless debuging ip) 
+3-  .\adb shell
+4-  pm disable-user --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+5-  pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms  
+6-  exit
